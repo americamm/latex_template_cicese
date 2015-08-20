@@ -5,9 +5,9 @@
 \documentclass[letterpaper,12pt]{cicese}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{ marvosym }
-\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[letterpaper,left=3cm,right=2cm,top=2cm,bottom=1.3cm]{geometry}
 %%\usepackage[ansinew]{inputenc}   %este paquete es para poner acentos directamente en el codigo de latex. sin barra
-%%\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 %\usepackage[spanish,english]{babel}
 %%\usepackage[spanish,mexico,es-lcroman]{babel}
 %paquete para insertar hipervinculos en referencias a capitulos, figuras, etc.
@@ -18,19 +18,22 @@
 \usepackage{mdframed}
 \usepackage[acronym]{glossaries}
 \makeglossaries
-
 \usepackage[linkcolor=blue]{hyperref}
 \usepackage{cicese}
+\usepackage{tabularx}
+\usepackage{pbox}
 \usepackage{makeidx}
 \usepackage{eurosym}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{gensymb}
 \usepackage{graphicx} % figuras
 \graphicspath{{figures//}}
-\usepackage{natbib} 
 \usepackage{emptypage} 
+\usepackage{textcomp}
 %\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
-
+\DeclareMathAlphabet{\mathantt}{OT1}{antt}{li}{it}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
 \setlength{\parskip}{12pt plus 1pt minus 1pt}
 
 
@@ -113,78 +116,91 @@
 % Escribe tu nombre, tal y como aparece en los registros
 % de Posgrado. De ser necesario, separa con \- las sílabas
 % de tu nombre
-\autor{Guybrush Threepwood}
+\autor{Pusheen Rodriguez}
 
 % Escribe el título de tu tesis (Si el titulo es mayor de 2 renglones es necesario
 % cambiar el valor de espacio vertical para que conserve las dimensiones del margen.
 % La modificacion se hace en el archivo cicese.sty en la seccion de la portada que
 % ya esta indicado las dimensiones que debe tener para 3 renglones.)
-\titulo{El origen del mono con tres cabezas}
+\titulo{Medici\'on de los efectos del grog en los estudiantes de posgrado por medio de c\'omputo vestible}
 
 % Para el resumen, escribe aqui el título en inglés
-\tituloIN{Three headed monkey's origin}
+\tituloIN{Grog's effects measurement on posgraduate students trough wearable computing}
 
 % Aquí va el nombre de tu programa de posgrado
-\posgrado{Scum Department}
-\posgradoUP{CIENCIAS DE LA PIRATER\'IA}
+\posgrado{Ciencias de la Computación}
+\posgradoUP{CIENCIAS DE LA COMPUTACIÓN}
 %con orientaci\'on en \uppercase\expandafter{C\'omputo Biomolecular}
 % Aquí va el nombre de orientacion para el que aplique (sino comentarlo)
 %\orientacion{}
 
 % Escribe aquí el nombre del posgrado en inglés
-\posgradoIN{Pirate Science}
+\posgradoIN{Computer Science}
 %with orientation in \uppercase\expandafter{Biomolecular Computing}
 % Escribe aquí el nombre de orientacion para el que aplique (sino comentarlo)
 \orientacionIN{}
 
 % El nombre del grado en inglés
-\gradoIN{Master in Sciences}
+\gradoIN{Master in Computer Science}
 
 % Este comando especifica si la tesis es de maestria (usa \mc) o de
 % doctorado (usa \dc)
 \mc
 
 % Fecha (mes y año) de la defensa de tesis, en español y en ingles
-\fechaexamen{Septiembre, 2014}\fechaexamenIN{September, 2014}
+\fechaexamen{Agosto, 2015}\fechaexamenIN{August, 2015}
 
 % Fecha (dia, mes y año) de la defensa de tesis para la hoja de firmas
-\fechaexamencompleta{Septiembre, 2015}
+\fechaexamencompleta{Agosto, 2015}
 
 % Año de la defensa //Este valor a aparecerá en la parte inferior de la primer página de la tesis
 \anioDefensa{2015}
 
 % Nombre de tu director de tesis, si tienes codirector repite el comando
-\director{Dr. Asesor 1}
+\director{Dr. Gordon Freeman}
 %\director{Dr. Asesor 2}
 
 % Nombres de los sinodales, en el orden que aparecerán en la
 % página de firmas
 %%NO UTILIZAR ABREVIATURAS
-\sinodal{Dr. 1}
-\sinodal{Dr. 2}
-\sinodal{Dr. 3}
+\sinodal{Dr. Gordon Freeman}
+%\sinodal{}
+%\sinodal{Dra. Sharon Zinah Herzka Llona}
+%\sinodal{Dra. Beatriz Cordero Esquivel}
 %\sinodal{Dr. 4}
 %\sinodal{Dr. 5}
 %\sinodal{Dr. 6}
 
 % Nombre del Director de Estudios de Posgrado
-\dirposgrado{Dr. LeChuck}
+\dirposgrado{Dr. Gordon Freeman}
+
+% Para mostrar el logotipo de su programa, elimine el simbolo de comentario del nombre del posgrado correspondiente
+
+%\logotipo{0} %% Ciencias de la vida
+%\logotipo{1} %% Acuicultura
+%\logotipo{2} %% Ecologia marina
+%\logotipo{3} %% Oceanografia marina
+\logotipo{4} %% Ciencias de la computacion
+%\logotipo{5} %% Electronica y computacion
+%\logotipo{6} %% Optica
+%\logotipo{7} %% Ciencias de la tierra
+%\logotipo{8} %% Fisica de materias
 % Nombre del Coordinador del Programa de Posgrado
-\cpp{Dr. Murray Bones}
+\cpp{Dra. Ana Isabel Martínez García}
 
 % Escribe aqui el nombre del archivo .tex que contiene el texto del
 % resumen en español. Omite escribir la extensión .tex
 \resumenES{Resumen}
 
 % Palabras clave del resumen en español
-\palabrasclave{stuff 1, stuff 2, stuff 3, and so on.}
+\palabrasclave{Detecci\'on de efectos del grog, C\'omputo vestible, Se\~nales fisiol\'ogicas}
 
 % Escribe aqui el nombre del archivo .tex que contiene el texto del
 % resumen en inglés. Omite escribir la extensión .tex
 \resumenIN{Abstract}
 
 % Palabras clave del resumen en inglés
-\keywords{stuff 1, stuff 2, stuff 3, and so on.}
+\keywords{Grog's effect detection, Wearable computing, Physiological signals}
 
 % Nombre del archivo .tex con el texto de la dedicatoria, omite
 % la extensión .tex
@@ -232,33 +248,13 @@
 %EndExpansion
 \newpage }
 
-{\normalsize
-%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
-%BeginExpansion
-\input{Capitulo06.tex}
-%EndExpansion
-\newpage }
-
-{\normalsize
-%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
-%BeginExpansion
-\input{Capitulo07.tex}
-%EndExpansion
-\newpage }
-
-{\normalsize
-%TCIMACRO{\QSubDoc{Include Capitulo05}{\input{Capitulo05.tex}} }%
-%BeginExpansion
-\input{Capitulo08.tex}
-%EndExpansion
-\newpage }
 
 \linespread{1.0}
-\addcontentsline{toc}{chapter}{\normalsize\expandafter{Lista de referencias}}
+\addcontentsline{toc}{chapter}{\normalsize\expandafter{Lista de referencias bibliogr\'aficas}}
 {\normalsize
 \bibliographystyle{cicese}%cicese, ieeetr, plain, unsrt, alpha, abbrv, acm, apalike 
 \nocite{*}
-\bibliography{cicese}
+\bibliography{iTesis}
 }
 
 \linespread{1.5}

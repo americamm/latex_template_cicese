@@ -1,10 +1,10 @@
 \select@language {spanish}
-\contentsline {chapter}{Resumen en espa\~nol}{iii}{figure.caption.1}
-\contentsline {chapter}{Resumen en ingl\'es}{iv}{figure.caption.1}
-\contentsline {chapter}{Dedicatoria}{v}{chapter*.2}
-\contentsline {chapter}{Agradecimientos}{vi}{chapter*.3}
-\contentsline {chapter}{Lista de figuras}{viii}{chapter*.5}
-\contentsline {chapter}{Lista de tablas}{ix}{chapter*.6}
+\contentsline {chapter}{Resumen en espa\~nol}{ii}{figure.caption.2}
+\contentsline {chapter}{Resumen en ingl\'es}{iii}{figure.caption.2}
+\contentsline {chapter}{Dedicatoria}{iv}{chapter*.3}
+\contentsline {chapter}{Agradecimientos}{v}{chapter*.4}
+\contentsline {chapter}{Lista de figuras}{vii}{chapter*.6}
+\contentsline {chapter}{Lista de tablas}{viii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Amazing title}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Much title}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}More stuff goes here}{3}{section.2.1}
@@ -18,8 +18,5 @@
 \contentsline {subsection}{\numberline {3.4.2}C\IeC {\'a}lculo de la demanda de ox\IeC {\'\i }geno}{8}{subsection.3.4.2}
 \contentsline {chapter}{\numberline {4}Very t\IeC {\'\i }tulo}{9}{chapter.4}
 \contentsline {chapter}{\numberline {5}Other much title}{10}{chapter.5}
-\contentsline {chapter}{\numberline {6}T\IeC {\'\i }tulo}{11}{chapter.6}
-\contentsline {chapter}{\numberline {7}Otro t\IeC {\'\i }tulo}{12}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusiones}{13}{chapter.8}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias}}{14}{chapter.8}
-\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{15}{appendix.Alph9}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {Lista de referencias bibliogr\'aficas}}{11}{figure.caption.11}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice}{12}{appendix.Alph6}
