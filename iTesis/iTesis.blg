@@ -1,54 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: iTesis.aux
 The style file: cicese.bst
-I couldn't open database file iTesis.bib
----line 89 of file iTesis.aux
- : \bibdata{iTesis
- :                }
-I'm skipping whatever remains of this command
-I found no database files---while reading file iTesis.aux
+Database file #1: iTesis.bib
 Warning--I didn't find a database entry for "Barstow:1991"
-Warning--I didn't find a database entry for "Adleman1998"
-You've used 0 entries,
+You've used 2 entries,
             2727 wiz_defined-function locations,
-            715 strings with 5484 characters,
-and the built_in function-call counts, 17 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            731 strings with 5754 characters,
+and the built_in function-call counts, 925 in all, are:
+= -- 87
+> -- 51
+< -- 1
++ -- 15
+- -- 15
+* -- 99
+:= -- 148
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 11
+chr.to.int$ -- 2
+cite$ -- 6
+duplicate$ -- 32
+empty$ -- 63
+format.name$ -- 17
+if$ -- 179
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 8
+pop$ -- 14
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 9
 quote$ -- 0
-skip$ -- 1
+skip$ -- 28
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 50
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 18
 warning$ -- 0
-while$ -- 0
+while$ -- 10
 width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+write$ -- 28
+(There was 1 warning)
